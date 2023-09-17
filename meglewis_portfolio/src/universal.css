@@ -1,0 +1,252 @@
+body {
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 auto;
+    color: #0d0c22;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+.logo {
+max-width: 100%;
+height: auto;
+padding: 0 20px;
+
+
+}
+
+.logo-image {
+    width: 18%;
+    margin-top: 5px;
+}
+
+.logo-image:hover {
+    cursor: pointer;
+}
+
+/*Buttons*/
+
+.primary-btn {
+    border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out; 
+    width: 200px; 
+    height: 50px;
+
+
+}
+
+ .primary-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; 
+    width: 100%;
+    height: 100%;
+    background-color: #b3fbe3; 
+    transition: left 0.3s ease-in-out; 
+  }
+
+  /* Hover effect */
+  .primary-btn:hover {
+    background-color: transparent; 
+  }
+
+  /* Hover effect for the pseudo-element */
+  .primary-btn:hover:before {
+    left: 0; 
+  }
+
+
+.btn-text {
+    z-index: 10;
+}
+
+.secondary-btn {
+    margin: 60px auto;
+    display: block;
+    border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out; 
+    width: 200px; 
+    height: 50px;
+
+
+}
+
+ /* Pseudo-element for the fill effect */
+ .secondary-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; 
+    width: 100%;
+    height: 100%;
+    background-color: #b3fbe3;
+    transition: left 0.3s ease-in-out; 
+  }
+
+  /* Hover effect */
+  .secondary-btn:hover {
+    background-color: transparent; 
+  }
+
+  /* Hover effect for the pseudo-element */
+  .secondary-btn:hover:before {
+    left: 0; 
+  }
+
+
+  /*Section Containers*/
+
+.hero-container {
+    height: 90vh;
+    background-color: #f8f7f4;
+    display: grid;
+    place-items: center;
+
+
+}
+
+.section-container-center {
+    background: #FFDA79;
+    display: grid;
+    place-items: center;
+    height: 80vh;
+
+    
+}
+
+
+.section-container-left {
+    height: 80vh;
+    background: #FFDA79;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    place-content: center;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 50px;
+
+
+}
+
+.main-text-container-left {
+    padding-left: 5%;
+}
+
+.section-container-right {
+    height: 80vh;
+    background:  #f8f7f4;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1.5fr;
+    place-content: center;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+
+.main-text-container-right {
+    padding-right: 10%;
+    grid-column: 2;
+    justify-content: start;
+
+}
+
+/*Heading and Paragraphs*/
+
+.main-header {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    text-align: left;
+    margin-bottom: 40px;
+    letter-spacing: 0.4rem;
+
+}
+
+.main-paragraph {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+
+/*Images*/
+
+.project-image {
+    width: 80%;
+    border: 2px solid black;
+}
+
+/*Skills containers*/
+
+.skills-container-small {
+    height: auto;
+    width: 70%;
+    margin: 30px auto 0;
+}
+
+/*Project Pages*/
+
+.image-project-wrapper {
+    grid-row: 1;
+}
+
+.project-intro-container {
+    margin: 0 auto;
+    padding: 40px;
+    width: 60vw;
+
+}
+
+.project-title {
+    font-size: 3rem;
+    margin-bottom: 60px;
+
+}
+
+.project-paragraph {
+    font-size: 1.4rem;
+    line-height: 1.5;
+
+
+}
+
+
+.project-video {
+    height: auto;
+    width: 75%;
+    margin: 0 auto;
+    padding: 100px 0;
+}

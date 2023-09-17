@@ -1,0 +1,28 @@
+.contact-container {
+    border: 4px solid #FFDA79;
+    padding: 40px 80px;
+    background-color: #0d0c22;
+    color: #f8f7f4;
+
+    
+
+
+}
+
+.contact-details {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1;
+
+
+}
+
+.contact-center {
+    border-top: 2px solid #FFDA79;
+    background: #f8f7f4;
+    display: grid;
+    place-items: center;
+    height: 80vh;
+    
+}

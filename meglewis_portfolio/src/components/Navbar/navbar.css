@@ -1,0 +1,106 @@
+.navbar-container {
+    background-color: #0d0c22;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+
+
+}
+
+.navbar-container li{
+    display: inline-block;
+    font-size: 1.2rem;
+
+
+
+}
+
+.first-link {
+  margin-right: 20px;
+}
+
+.second-link {
+  margin-right: 0;
+}
+
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+
+.nav-link:hover {
+  font-weight: 600;
+  color: #b3fbe3;
+}
+
+
+.nav-link:visited {
+    color: white;
+
+}
+
+
+
+
+.nav-btn {
+  background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin-right: 40px;
+    padding: 5px 15px;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-family: Helvetica, sans-serif;
+font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out; 
+  width: 100px; 
+  height: 25px;
+
+}
+
+/* Pseudo-element for the fill effect */
+.nav-btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%; 
+  width: 100%;
+  height: 100%;
+  background-color: #b3fbe3; 
+  transition: left 0.3s ease-in-out; 
+
+}
+
+/* Hover effect */
+.nav-btn:hover {
+  background-color: transparent; 
+}
+
+/* Hover effect for the pseudo-element */
+.nav-btn:hover:before {
+  left: 0; 
+}
+
+
+.nav-text {
+  z-index: 10;
+  
+}
+
+.nav-text:hover {
+  color: black;
+}
+

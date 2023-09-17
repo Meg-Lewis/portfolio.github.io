@@ -1,0 +1,118 @@
+
+.wrapper {
+    width: 80vw;
+}
+
+.skills-container {
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.skill-row {
+    display: flex;
+    margin-top: 15px;
+
+
+}
+
+.skill-row .skill-item {
+    flex-grow: 2;
+}
+
+.skill-row:nth-child(even) > .skill-item:first-child,
+.skill-row:nth-child(even) > .skill-item:last-child {
+    flex-grow: 1;
+}
+
+
+
+.skill-item {
+    border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  margin: 0 15px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out; 
+    width: 200px; /* Adjust the width as needed */
+    height: 60px;
+
+}
+
+ /* Pseudo-element for the fill effect */
+ .percentage-100:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; /* Initially, the fill starts from the left */
+    width: 100%;
+    height: 100%;
+    background-color: #b3fbe3; /* Change this to your desired color */
+    transition: left 0.3s ease-in-out; /* Add a smooth transition for the left property */
+  }
+
+  /* Hover effect */
+  .percentage-100:hover {
+    background-color: transparent; /* Reset the background color */
+  }
+
+  /* Hover effect for the pseudo-element */
+  .percentage-100:hover:before {
+    left: 0; /* Move the fill to the right when hovered */
+  }
+
+
+.skill-text {
+    z-index: 10;
+}
+
+ /* Pseudo-element for the fill effect */
+ .percentage-80:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; /* Initially, the fill starts from the left */
+    width: 80%;
+    height: 100%;
+    background-color: #b3fbe3; /* Change this to your desired color */
+    transition: left 0.3s ease-in-out; /* Add a smooth transition for the left property */
+  }
+
+  /* Hover effect */
+  .percentage-80:hover {
+    background-color: transparent; /* Reset the background color */
+  }
+
+  /* Hover effect for the pseudo-element */
+  .percentage-80:hover:before {
+    left: 0; /* Move the fill to the right when hovered */
+  }
+
+   /* Pseudo-element for the fill effect */
+ .percentage-60:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; /* Initially, the fill starts from the left */
+    width: 60%;
+    height: 100%;
+    background-color: #b3fbe3; /* Change this to your desired color */
+    transition: left 0.3s ease-in-out; /* Add a smooth transition for the left property */
+  }
+
+  /* Hover effect */
+  .percentage-60:hover {
+    background-color: transparent; /* Reset the background color */
+  }
+
+  /* Hover effect for the pseudo-element */
+  .percentage-60:hover:before {
+    left: 0; /* Move the fill to the right when hovered */
+  }
