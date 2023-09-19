@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio.github.io/static/css/main.85981a58.css",
-    "main.js": "/portfolio.github.io/static/js/main.f99c5119.js",
+    "main.css": "/portfolio.github.io/static/css/main.9a3c2a72.css",
+    "main.js": "/portfolio.github.io/static/js/main.03b03359.js",
     "static/js/787.a673cd96.chunk.js": "/portfolio.github.io/static/js/787.a673cd96.chunk.js",
     "static/media/Omnifood.mp4": "/portfolio.github.io/static/media/Omnifood.9ebb05cd445a618df7c4.mp4",
     "static/media/INYIM.mp4": "/portfolio.github.io/static/media/INYIM.fcf271bd14843682f302.mp4",
@@ -13,12 +13,12 @@
     "static/media/group_project_website.png": "/portfolio.github.io/static/media/group_project_website.96693a6ecbb5db501c9b.png",
     "static/media/calculator.png": "/portfolio.github.io/static/media/calculator.ed1d14889e6bbe350b82.png",
     "index.html": "/portfolio.github.io/index.html",
-    "main.85981a58.css.map": "/portfolio.github.io/static/css/main.85981a58.css.map",
-    "main.f99c5119.js.map": "/portfolio.github.io/static/js/main.f99c5119.js.map",
+    "main.9a3c2a72.css.map": "/portfolio.github.io/static/css/main.9a3c2a72.css.map",
+    "main.03b03359.js.map": "/portfolio.github.io/static/js/main.03b03359.js.map",
     "787.a673cd96.chunk.js.map": "/portfolio.github.io/static/js/787.a673cd96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85981a58.css",
-    "static/js/main.f99c5119.js"
+    "static/css/main.9a3c2a72.css",
+    "static/js/main.03b03359.js"
   ]
 }
